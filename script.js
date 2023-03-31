@@ -1,13 +1,13 @@
-// let password = "пароль";
-// let userPass = prompt("Введите пароль");
+let password = "пароль";
+let userPass = prompt("Введите пароль");
 
-// userPass = userPass.toLocaleLowerCase();
+userPass = userPass.toLocaleLowerCase();
 
-// if (userPass === "userpass") {
-//   console.log("Пароль введен верно");
-// } else {
-//   console.log("Пароль введен не верно");
-// }
+if (userPass === password) {
+  console.log("Пароль введен верно");
+} else {
+  console.log("Пароль введен не верно");
+}
 
 // let c = Number(prompt("Введите число"));
 
@@ -58,5 +58,3 @@
 //     default:
 //       console.log('Устал считать');
 //   }
-
-
