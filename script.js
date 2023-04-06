@@ -1,60 +1,53 @@
-let password = "пароль";
-let userPass = prompt("Введите пароль");
+// let a = prompt("Введите первое число");
+// let b = prompt("Введите второе число");
 
-userPass = userPass.toLocaleLowerCase();
-
-if (userPass === password) {
-  console.log("Пароль введен верно");
-} else {
-  console.log("Пароль введен не верно");
-}
-
-// let c = Number(prompt("Введите число"));
-
-// if (c > 0 && c < 10) {
-//   console.log("Верно");
-// } else {
-//   console.log("Не верно");
+// function comparison(a, b) {
+//   return a < b ? a : b;
 // }
+// console.log(comparison(a, b));
 
-// let d = Number(prompt("Введите первое число"));
-// let e = Number(prompt("Введиет второе число"));
-
-// if (d > 100 || e > 100) {
-//   console.log("верно");
-// } else {
-//   console.log("не верно");
-// }
-
-// let a = Number("2");
-// let b = Number("3");
-// alert(a + b);
-
-// let monthNumber = String(prompt("Какой месяц?"));
-
-// let monthNumber = Number(prompt('Какой месяц?'));
-
-// switch (monthNumber) {
-//     case 12:
-//     case 1:
-//     case 2:
-//       console.log('зима');
-//       break;
-//     case 3:
-//     case 4:
-//     case 5:
-//       console.log('весна');
-//       break;
-//     case 6:
-//     case 7:
-//     case 8:
-//       console.log('лето');
-//       break;
-//     case 9:
-//     case 10:
-//     case 11:
-//       console.log('осень');
-//       break;
-//     default:
-//       console.log('Устал считать');
+// function even_or_odd(number) {
+//   if (n % 2 == 0) {
+//     return "even";
+//   } else {
+//     return "odd";
 //   }
+// }
+
+// function number(num) {
+//   return num * num;
+// }
+
+// console.log(number(5));
+
+// function number(num) {
+//   alert(Math.pow(5, 2));
+// }
+
+// number();
+
+// function greeting() {
+//   let age = prompt('Сколько Вам лет?');
+//   if (age < 0) {
+//     console.log('Вы ввели неправильно значение');
+//   } else if (age >= 0 && age <=12) {
+//     console.log('Привет друг');
+//   } else {
+//     console.log('Добро пожаловать');
+//   }
+// }
+
+// greeting();
+
+// function checkNumber() {
+//   let input = prompt("Введите число");
+
+//   if (isNaN(input)) {
+//     return "Вы ввели неправильное значение";
+//   } else {
+//     return input * 3;
+//   }
+// }
+
+
+
