@@ -52,3 +52,22 @@
 // function name(params) {
   
 // }
+
+
+// function cubeNumber(n) {
+//     if (typeof n != 'number') {
+//         return 'Переданный параметр не является числом';
+//     }
+//     const numberCubed = n ** 3;
+//     return `${n} в кубе равняется ${numberCubed}`;
+    
+// }
+
+// console.log(cubeNumber(0));   
+// console.log(cubeNumber(5));   
+// console.log(cubeNumber(10));  
+// console.log(cubeNumber('a')); 
+
+
+
+
