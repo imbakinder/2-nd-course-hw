@@ -1,100 +1,45 @@
-// let a = prompt("Введите первое число");
-// let b = prompt("Введите второе число");
+// const number = [1, 5, 4, 10, 0, 3];
 
-// function comparison(a, b) {
-//   return a < b ? a : b;
-// }
-// console.log(comparison(a, b));
-
-// function even_or_odd(number) {
-//   if (n % 2 == 0) {
-//     return "even";
-//   } else {
-//     return "odd";
-//   }
-// }
-
-// function number(num) {
-//   return num * num;
-// }
-
-// console.log(number(5));
-
-// function number(num) {
-//   alert(Math.pow(5, 2));
-// }
-
-// number();
-
-// function greeting() {
-//   let age = prompt('Сколько Вам лет?');
-//   if (age < 0) {
-//     console.log('Вы ввели неправильно значение');
-//   } else if (age >= 0 && age <=12) {
-//     console.log('Привет друг');
-//   } else {
-//     console.log('Добро пожаловать');
-//   }
-// }
-
-// greeting();
-
-// function checkNumber() {
-//   let input = prompt("Введите число");
-
-//   if (isNaN(input)) {
-//     return "Вы ввели неправильное значение";
-//   } else {
-//     return input * 3;
-//   }
-// }
-
-// function name(params) {
-  
-// }
-
-
-// function cubeNumber(n) {
-//     if (typeof n != 'number') {
-//         return 'Переданный параметр не является числом';
+// for (let i = 0; i < number.length; i++) {
+//     if (number[i] === 10) {
+//         console.log(number[i]);
+//         break
 //     }
-//     const numberCubed = n ** 3;
-//     return `${n} в кубе равняется ${numberCubed}`;
-    
+//     console.log(number[i]);
 // }
 
-// console.log(cubeNumber(0));   
-// console.log(cubeNumber(5));   
-// console.log(cubeNumber(10));  
-// console.log(cubeNumber('a')); 
+
+// const number = [1, 5, 4, 10, 0, 3];
+// const index = number.indexOf(4);
+
+// console.log(index);
 
 
-// const circle1 = {
-//     radius: 5,
-//     getArea() {
-//       return Math.PI * this.radius ** 2;
-//     },
-//     getPerimeter() {
-//       return 2 * Math.PI * this.radius;
-//     }
-//   };
-  
-//   const circle2 = {
-//     radius: 10,
-//     getArea() {
-//       return Math.PI * this.radius ** 2;
-//     },
-//     getPerimeter() {
-//       return 2 * Math.PI * this.radius;
-//     }
-//   };
+// let number = [1, 3, 5, 10, 20];
+
+// number = number.join(' ');
+
+// console.log(number);
 
 
-// console.log( circle1.getArea() );
-// console.log( circle1.getPerimeter() );
 
-// console.log( circle2.getArea() );
-// console.log( circle2.getPerimeter() );
+// let arr = [];
+
+// for (let i = 0; i < 3; i++) {
+//   let innerArr = [];
+//   for (let j = 0; j < 3; j++) {
+//     innerArr.push(1);
+//   }
+//   arr.push(innerArr);
+// }
+// console.log(arr);
+
+
+// let arr = [1, 1, 1];
+
+// arr.push(1, 2, 3);
+
+// console.log(arr);
 
 
 
