@@ -104,7 +104,7 @@
 //   const numbers = [1, -2, 3, -4, 5, -6];
 //   const negativeNumbers = getNegativeNumbers(numbers);
   
-//   console.log(negativeNumbers);
+//   console.log(negativeNumbers);  - 
 
 
 
