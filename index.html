@@ -63,6 +63,29 @@
             seasons(numerMonth);
         }
     </script>
+    <script>
+        function game2() {
+            const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+            for (let i = fruits.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [fruits[i], fruits[j]] = [fruits[j], fruits[i]];
+            }
+
+            alert(fruits);
+
+            const firstFruit = prompt('Чему равнялся первый элемент массива?');
+            const lastFruit = prompt('Чему равнялся последний элемент массива?');
+
+            if (firstFruit === fruits[0] && lastFruit === fruits[fruits.length - 1]) {
+                alert('Поздравляем, вы угадали оба элемента!');
+            } else if (firstFruit === fruits[0] || lastFruit === fruits[fruits.length - 1]) {
+                alert('Вы были близки к победе!');
+            } else {
+                alert('К сожалению, вы ответили неверно.');
+            }
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 
