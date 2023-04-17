@@ -44,6 +44,48 @@
             <a onclick="game2()" href="#" class="button">Играть!</a>
         </div>
     </section>
+    <script>
+        function game1() {
+            let numerMonth = Number(prompt('Введите номер месяца'));
+            function seasons(num) {
+                if (num <= 0 || num >= 13) {
+                    alert('Вы ввели плохое число')
+                } else if (num === 1 || num === 2 || num === 12) {
+                    alert('Зима');
+                } else if (num >= 3 && num <= 5) {
+                    alert('Весна');
+                } else if (num >= 6 && num <= 8) {
+                    alert('Лето')
+                } else {
+                    alert('Осень')
+                }
+            }
+            seasons(numerMonth);
+        }
+    </script>
+    <script>
+        function game2() {
+            const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+            for (let i = fruits.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [fruits[i], fruits[j]] = [fruits[j], fruits[i]];
+            }
+
+            alert(fruits);
+
+            const firstFruit = prompt('Чему равнялся первый элемент массива?');
+            const lastFruit = prompt('Чему равнялся последний элемент массива?');
+
+            if (firstFruit === fruits[0] && lastFruit === fruits[fruits.length - 1]) {
+                alert('Поздравляем, вы угадали оба элемента!');
+            } else if (firstFruit === fruits[0] || lastFruit === fruits[fruits.length - 1]) {
+                alert('Вы были близки к победе!');
+            } else {
+                alert('К сожалению, вы ответили неверно.');
+            }
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 

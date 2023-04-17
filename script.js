@@ -1,76 +1,78 @@
-// let password = "пароль";
-// let userPass = prompt("Введите пароль");
+// let str = "js";
+// let upperStr = str.toUpperCase();
 
-// userPass = userPass.toLocaleLowerCase();
+// console.log(upperStr);
 
-// if (userPass === "скайпро") {
-//   console.log("Пароль введен верно");
-// } else {
-//   console.log("Пароль введен не верно");
+// let num = 32.58884;
+// let roundedDown = Math.floor(num);
+// console.log(roundedDown);
+// let num = 32.58884;
+// let roundedUp = Math.ceil(num);
+// console.log(roundedUp);
+// let num = 32.58884;
+// let rounded = Math.round(num);
+// console.log(rounded);
+
+// let arr = [52, 53, 49, 77, 21, 32];
+
+// let min = arr[0];
+// let max = arr[0];
+
+// for (let i = 1; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     min = arr[i];
+//   }
+
+//   if (arr[i] > max) {
+//     max = arr[i];
+//   }
 // }
 
-// let c = Number(prompt("Введите число"));
+// console.log('Наименьшее число: ', min);
+// console.log('Наибольшее число: ', max);
 
-// if (c > 0 && c < 10) {
-//   console.log("Верно");
-// } else {
-//   console.log("Не верно");
-// }
+// function getRandomNumber() {
+//     let randomNumber = Math.random() * 10;
 
-// let d = Number(prompt("Введите первое число"));
-// let e = Number(prompt("Введиет второе число"));
+//     randomNumber = Math.floor(randomNumber) + 1;
+//     console.log(randomNumber);
+//   }
 
-// if (d > 100 || e > 100) {
-//   console.log("верно");
-// } else {
-//   console.log("не верно");
-// }
+//   getRandomNumber();
 
-// let a = Number("2");
-// let b = Number("3");
-// alert(a + b);
+// function getRandomNumbersArray(num) {
+//     let arrayLength = Math.floor(num / 2);
 
-// let monthNumber = String(prompt("Какой месяц?"));
+//     let resultArray = [];
 
-// switch (monthNumber) {
-//   case "1":
-//     console.log("зима");
-//     break;
-//   case "2":
-//     console.log("зима");
-//     break;
-//   case "3":
-//     console.log("весна");
-//   case "4":
-//     console.log("весна");
-//     break;
-//   case "5":
-//     console.log("весна");
-//     break;
-//   case "6":
-//     console.log("лето");
-//     break;
-//   case "7":
-//     console.log("лето");
-//     break;
-//   case "8":
-//     console.log("лето");
-//     break;
-//   case "9":
-//     console.log("осень");
-//     break;
-//   case "10":
-//     console.log("осень");
-//     break;
-//   case "11":
-//     console.log("осень");
-//     break;
-//   case "12":
-//     console.log("зима");
-//     break;
-//   default:
-//     console.log("Устал считать");
-//     break;
-// }
+//     for (let i = 0; i < arrayLength; i++) {
+//       let randomNumber = Math.floor(Math.random() * num);
 
+//       if (!resultArray.includes(randomNumber)) {
+//         resultArray.push(randomNumber);
+//       }
+//     }
 
+//     return resultArray;
+//   }
+
+//   console.log(getRandomNumbersArray(10));
+
+// Math.floor(Math.random() * (max - min + 1)) + min
+
+// function getRandomInt(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
+
+//   console.log(getRandomInt(10, 20));
+
+// const currentDate = new Date();
+// const dateAsString = currentDate.toLocaleDateString();
+// console.log(dateAsString);
+
+// const currentDate = new Date();
+// currentDate.setDate(currentDate.getDate() + 73);
+// console.log(currentDate.toLocaleDateString());
+
+// const date = new Date();
+// console.log(formatDate(date));
